@@ -1,2 +1,2 @@
 # Forging-Your-Way
-A flutter based career counsling app.
+A flutter based career counseling app.
