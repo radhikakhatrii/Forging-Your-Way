@@ -2,19 +2,20 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import Login from './components/login';
 import Signup from './components/signup';
-import Dashboard from './components/dashboard';
 import {firebase} from './config';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import React, {useState, useEffect} from 'react';
 import { Button } from 'react-native-paper';
-import { StudentDashboard, CounsellorDashboard } from './components/dashboard';
+import StudentDashboard from './components/student-dashboard';
+import CounsellorDashboard from './components/counsellor-dashboard';
 
 const Stack = createStackNavigator();
 
 function App() {
   const [initializing, setInitializing] = useState(true);
   const [user, setUser] = useState();
+  const [userType, setUserType] = useState(null);
 
   function onAuthStateChanged(user){
     setUser(user);
@@ -56,7 +57,7 @@ function App() {
     )}
     return (
       <Stack.Navigator>
-        {userType === "counsellor" ? (
+        {userType === "Counsellor" ? (
           <Stack.Screen name='CounsellorDashboard' component={CounsellorDashboard} />
         ) : (
           <Stack.Screen name='StudentDashboard' component={StudentDashboard} />
