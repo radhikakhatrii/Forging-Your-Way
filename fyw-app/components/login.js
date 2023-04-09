@@ -6,7 +6,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import {useState, useEffect} from 'react';
 import Signup from './signup';
-import { StudentDashboard, CounsellorDashboard } from './dashboard';
+import { StudentDashboard, CounsellorDashboard } from './student-dashboard';
 
 const Login = ({navigation}) => {
   const [email, setEmail] = React.useState("");

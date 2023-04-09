@@ -2,7 +2,7 @@ import * as React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { Button, TextInput, RadioButton } from 'react-native-paper';
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
-import { StudentDashboard, CounsellorDashboard } from './dashboard';
+import { StudentDashboard, CounsellorDashboard } from './student-dashboard';
 import { firebase } from '../config';
 
 const Signup = () => {
