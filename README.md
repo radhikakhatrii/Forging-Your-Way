@@ -1,5 +1,8 @@
 # Forging-Your-Way
 
+[![CodeFactor](https://www.codefactor.io/repository/github/qazalbash/forging-your-way/badge)](https://www.codefactor.io/repository/github/qazalbash/forging-your-way)
+![GitHub](https://img.shields.io/github/license/Qazalbash/Forging-Your-Way)
+
 A flutter based career counseling app.
 
 # Prototype
