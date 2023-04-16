@@ -14,6 +14,9 @@ A flutter based career counseling app.
 |<img width="1604" alt="profile" src="./dribbble-UI/profile_snip.png">|  <img width="1604" alt="dashboard" src="./dribbble-UI/dashboard_snip.png">|  <img width="1604" alt="settings" src="./dribbble-UI/settings_snip.png">| 
 | Profile | Dashboard | Settings |
 
+# TestCases
+Test Cases: [Google Sheet](https://docs.google.com/spreadsheets/d/1Q5QxBySwvrjjQQqevilt9sytoBQ9uKp8/edit#gid=2122455480)
+
 # Contributors
 
 <a href="https://github.com/Qazalbash/Forging-Your-Way/graphs/contributors">
